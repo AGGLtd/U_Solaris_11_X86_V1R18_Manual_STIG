@@ -1,0 +1,121 @@
+From 8ada85be53143a0b60c3dbf5e31b4d0539e7f14e Mon Sep 17 00:00:00 2001
+From: Antoine Germanos <antoine.germanos@protonmail.com>
+Date: Sat, 22 Sep 2018 00:35:38 +0300
+Subject: [PATCH] Experiment.md
+
+---
+ issue_templates/Comparison page.md  | 12 ++++++++++++
+ issue_templates/Experiment.md       | 23 +++++++++++++++++++++++
+ issue_templates/Feature proposal.md |  7 +++++++
+ issue_templates/New page.md         | 12 ++++++++++++
+ issue_templates/Page update.md      | 16 ++++++++++++++++
+ 5 files changed, 70 insertions(+)
+ create mode 100644 issue_templates/Comparison page.md
+ create mode 100644 issue_templates/Experiment.md
+ create mode 100644 issue_templates/Feature proposal.md
+ create mode 100644 issue_templates/New page.md
+ create mode 100644 issue_templates/Page update.md
+
+diff --git a/issue_templates/Comparison page.md b/issue_templates/Comparison page.md
+new file mode 100644
+index 0000000..2ef8b21
+--- /dev/null
++++ b/issue_templates/Comparison page.md
+@@ -0,0 +1,12 @@
++### Description
++
++Compare GitLab with <Competitor>.
++
++### Links / references
++
++(Add links to the competitor home page, documentation, Wikipedia article, etc.)
++
++-
++-
++
++/label ~"comparison page"
+diff --git a/issue_templates/Experiment.md b/issue_templates/Experiment.md
+new file mode 100644
+index 0000000..f77d225
+--- /dev/null
++++ b/issue_templates/Experiment.md
+@@ -0,0 +1,23 @@
++### Experiment Description
++
++(Please describe your experiment in 3-5 sentences. For example: We should change
++the navigation bar. It is important to drive people to the EE premium page and
++it should be more prominent. Let's make the navigation bar only have a link to 
++EE premium!)
++
++### Which metrics do you think this will affect?
++
++(Example: It will increase the number of EE trials we have)
++
++### What is your predicted outcome on this metric?
++
++(Example: Increase EE trials by 25%)
++
++### What resources will this experiment require?
++
++- [ ] Marketing (x days)
++- [ ] Engineering (x days)
++- [ ] Design (x days)
++
++
++### Any other information you'd like to add?
+diff --git a/issue_templates/Feature proposal.md b/issue_templates/Feature proposal.md
+new file mode 100644
+index 0000000..ea895ee
+--- /dev/null
++++ b/issue_templates/Feature proposal.md
+@@ -0,0 +1,7 @@
++### Description
++
++(Include problem, use cases, benefits, and/or goals)
++
++### Proposal
++
++### Links / references
+diff --git a/issue_templates/New page.md b/issue_templates/New page.md
+new file mode 100644
+index 0000000..4193e0c
+--- /dev/null
++++ b/issue_templates/New page.md
+@@ -0,0 +1,12 @@
++### Description
++
++(Include problem, use cases, benefits, and/or goals)
++
++Checklist when adding a new page:
++
++- [ ] What metrics should we track on this new page?
++- [ ] Do we need to create new funnels for this page, or integrate this page into existing funnels?
++
++### Proposal
++
++### Links / references
+diff --git a/issue_templates/Page update.md b/issue_templates/Page update.md
+new file mode 100644
+index 0000000..6024ad3
+--- /dev/null
++++ b/issue_templates/Page update.md
+@@ -0,0 +1,16 @@
++### Description
++
++(Include problem, use cases, benefits, and/or goals)
++
++Checklist when modifying an existing page:
++
++- [ ] What is the goal of changing the page?
++- [ ] What metrics are we trying to affect?
++- [ ] How will we decide if the change was successful or not?
++- [ ] Would we revert the changes if we decided that it was not a success?
++- [ ] Make sure events are reflected in Google Analytics/Marketo if the page is changed
++- [ ] Make sure redirection is done if we change the page so email newsletters do not contain dead link
++
++### Proposal
++
++### Links / references
+--
+Working Copy 3.8.4
+
